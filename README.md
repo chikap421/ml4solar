@@ -19,22 +19,22 @@ The forecasts display the expected power and efficiency trajectories over time, 
 ![Forecasting in Antarctica](Antarctica.jpg)
 *Figure 16: Forecasted power and efficiencies in Antarctica.*
 
-![Forecasting in Australia](resized_power_and_efficiency_test_data Australia.jpg)
+![Forecasting in Australia](Australia.jpg)
 *Figure 17: Forecasted power and efficiencies in Australia.*
 
-![Forecasting in Beijing](resized_power_and_efficiency_test_data Beijing.jpg)
+![Forecasting in Beijing](Beijing.jpg)
 *Figure 18: Forecasted power and efficiencies in Beijing.*
 
-![Forecasting in Berlin](resized_power_and_efficiency_test_data Berlin.jpg)
+![Forecasting in Berlin](Berlin.jpg)
 *Figure 19: Forecasted power and efficiencies in Berlin.*
 
-![Forecasting in Brasilia](resized_power_and_efficiency_test_data Brasilia.jpg)
+![Forecasting in Brasilia](Brasilia.jpg)
 *Figure 20: Forecasted power and efficiencies in Brasilia.*
 
-![Forecasting in Pretoria](resized_power_and_efficiency_test_data Pretoria.jpg)
+![Forecasting in Pretoria](Pretoria.jpg)
 *Figure 21: Forecasted power and efficiencies in Pretoria.*
 
-![Forecasting in Washington](resized_power_and_efficiency_test_data Washington.jpg)
+![Forecasting in Washington](Washington.jpg)
 *Figure 22: Forecasted power and efficiencies in Washington.*
 
 These figures represent the predictive capabilities of our machine learning models over various locations, indicating robustness and reliability in diverse environmental conditions.
