@@ -16,25 +16,25 @@ The forecasting phase of our project involved using the optimally trained models
 
 The forecasts display the expected power and efficiency trajectories over time, reflecting the impact of seasonal variations and other factors on the performance of the solar PV-TE systems.
 
-![Forecasting in Antarctica](/path/to/antarctica_forecast.png)
+![Forecasting in Antarctica](resized_power_and_efficiency_test_data Antarctica.jpg)
 *Figure 16: Forecasted power and efficiencies in Antarctica.*
 
-![Forecasting in Australia](/path/to/australia_forecast.png)
+![Forecasting in Australia](resized_power_and_efficiency_test_data Australia.jpg)
 *Figure 17: Forecasted power and efficiencies in Australia.*
 
-![Forecasting in Beijing](/path/to/beijing_forecast.png)
+![Forecasting in Beijing](resized_power_and_efficiency_test_data Beijing.jpg)
 *Figure 18: Forecasted power and efficiencies in Beijing.*
 
-![Forecasting in Berlin](/path/to/berlin_forecast.png)
+![Forecasting in Berlin](resized_power_and_efficiency_test_data Berlin.jpg)
 *Figure 19: Forecasted power and efficiencies in Berlin.*
 
-![Forecasting in Brasilia](/path/to/brasilia_forecast.png)
+![Forecasting in Brasilia](resized_power_and_efficiency_test_data Brasilia.jpg)
 *Figure 20: Forecasted power and efficiencies in Brasilia.*
 
-![Forecasting in Pretoria](/path/to/pretoria_forecast.png)
+![Forecasting in Pretoria](resized_power_and_efficiency_test_data Pretoria.jpg)
 *Figure 21: Forecasted power and efficiencies in Pretoria.*
 
-![Forecasting in Washington](/path/to/washington_forecast.png)
+![Forecasting in Washington](resized_power_and_efficiency_test_data Washington.jpg)
 *Figure 22: Forecasted power and efficiencies in Washington.*
 
 These figures represent the predictive capabilities of our machine learning models over various locations, indicating robustness and reliability in diverse environmental conditions.
