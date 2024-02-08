@@ -16,7 +16,7 @@ The forecasting phase of our project involved using the optimally trained models
 
 The forecasts display the expected power and efficiency trajectories over time, reflecting the impact of seasonal variations and other factors on the performance of the solar PV-TE systems.
 
-![Forecasting in Antarctica](resized_power_and_efficiency_test_data Antarctica.jpg)
+![Forecasting in Antarctica](Antarctica.jpg)
 *Figure 16: Forecasted power and efficiencies in Antarctica.*
 
 ![Forecasting in Australia](resized_power_and_efficiency_test_data Australia.jpg)
