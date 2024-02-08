@@ -1,40 +1,51 @@
-# Solar Photovoltaic-Thermoelectric (PV-TE) Performance Prediction
-
-## Overview
-
-This project is dedicated to enhancing the performance prediction of solar PV-TE modules across different geographic locations. Utilizing advanced machine learning techniques, we aim to provide accurate predictions of power output and efficiency, contributing to the optimization of solar energy systems worldwide.
-
-## Methodology
-
-We've employed a variety of regressive surrogate machine learning models including Artificial Neural Networks (ANN), Support Vector Regressors (SVR), Gradient Boosting (XGB, LGBM), CatBoost, and Bagging techniques. The models are trained on a rich dataset generated through finite element analysis, incorporating variables such as wind speed, solar irradiance, and ambient temperature.
-
 ## Results
 
-The models were evaluated across multiple metrics including MSE (Mean Squared Error), RMSE (Root Mean Squared Error), MAE (Mean Absolute Error), RRMSE (%), and R² Score. The evaluation spanned several countries, providing a global perspective on the efficiency and power output prediction capabilities of each model.
+### Performance Evaluation
 
-### Best Models for Prediction of Power and Efficiency
+Our models have been thoroughly evaluated, and the results highlight their ability to predict power and efficiency with high accuracy. We've summarized the performance of various models like ANN, SVR, XGB, LGBM, CatBoost, and Bagging across different countries in the bar chart below.
 
-Below is a summary of the performance of various models across different countries:
-
-![Best Models Summary](resized_Best_Models_All.png)
+![Model Performance Summary](resized)
 
 *Figure: Comparative analysis of machine learning models in predicting solar PV-TE module performance across multiple countries.*
 
-### Interpretation of the Results
+### Model Forecasting Phase
 
-- **MSE, RMSE, MAE**: Lower values indicate more accurate predictions with less error.
-- **RRMSE (%)**: Represents the relative root mean square error in percentage, where lower values signify better model performance.
-- **R² Score**: A value close to 1 indicates excellent model performance, showing that the predicted values closely match the actual values.
+The forecasting phase of our project involved using the optimally trained models to predict the power output and efficiency of solar PV-TE systems for datasets projected into the following year. These predictions are crucial for understanding future performance and planning accordingly.
 
-The visualization shows that models such as ANN, LGBM, and CatBoost tend to offer the best predictions for power output, while Bagging excels in efficiency prediction. The disparity across different geographic locations underscores the importance of localized model tuning.
+#### Forecasted Power and Efficiencies
+
+The forecasts display the expected power and efficiency trajectories over time, reflecting the impact of seasonal variations and other factors on the performance of the solar PV-TE systems.
+
+![Forecasting in Antarctica](/path/to/antarctica_forecast.png)
+*Figure 16: Forecasted power and efficiencies in Antarctica.*
+
+![Forecasting in Australia](/path/to/australia_forecast.png)
+*Figure 17: Forecasted power and efficiencies in Australia.*
+
+![Forecasting in Beijing](/path/to/beijing_forecast.png)
+*Figure 18: Forecasted power and efficiencies in Beijing.*
+
+![Forecasting in Berlin](/path/to/berlin_forecast.png)
+*Figure 19: Forecasted power and efficiencies in Berlin.*
+
+![Forecasting in Brasilia](/path/to/brasilia_forecast.png)
+*Figure 20: Forecasted power and efficiencies in Brasilia.*
+
+![Forecasting in Pretoria](/path/to/pretoria_forecast.png)
+*Figure 21: Forecasted power and efficiencies in Pretoria.*
+
+![Forecasting in Washington](/path/to/washington_forecast.png)
+*Figure 22: Forecasted power and efficiencies in Washington.*
+
+These figures represent the predictive capabilities of our machine learning models over various locations, indicating robustness and reliability in diverse environmental conditions.
 
 ## How to Use
 
-Interested parties can utilize our findings to select appropriate machine learning models for predicting the performance of solar PV-TE systems in specific regions. The methodology and results sections provide insights into model selection and performance expectations.
+To utilize these forecasting models, data scientists and solar energy analysts can apply the trained models to their local datasets to predict the future performance of solar PV-TE systems. This can aid in strategic planning and optimization for solar energy production.
 
 ## Contributions
 
-We welcome contributions from the community. If you have suggestions or want to improve the models, please feel free to fork the repository, make your changes, and submit a pull request.
+Contributions to this project are welcome. If you have suggestions or want to improve the forecasting models, please submit a pull request with your proposed changes.
 
 ## License
 
@@ -42,4 +53,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgements
 
-We extend our gratitude to the researchers and developers whose tools and libraries have made this analysis
+We thank the contributors to the open-source machine learning libraries that have made this analysis possible, as well as the community of researchers dedicated to advancing renewable energy technologies.
