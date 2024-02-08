@@ -4,7 +4,7 @@
 
 Our models have been thoroughly evaluated, and the results highlight their ability to predict power and efficiency with high accuracy. We've summarized the performance of various models like ANN, SVR, XGB, LGBM, CatBoost, and Bagging across different countries in the bar chart below.
 
-![Model Performance Summary](resized)
+![Model Performance Summary](resized_Best_Models_All.png)
 
 *Figure: Comparative analysis of machine learning models in predicting solar PV-TE module performance across multiple countries.*
 
