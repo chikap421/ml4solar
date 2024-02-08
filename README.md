@@ -16,7 +16,7 @@ The models were evaluated across multiple metrics including MSE (Mean Squared Er
 
 Below is a summary of the performance of various models across different countries:
 
-![Best Models Summary](/path/to/your/image.png)
+![Best Models Summary](resized_Best_Models_All.png)
 
 *Figure: Comparative analysis of machine learning models in predicting solar PV-TE module performance across multiple countries.*
 
