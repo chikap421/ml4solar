@@ -6,7 +6,7 @@ This project is dedicated to enhancing the performance prediction of solar PV-TE
 
 ## Methodology
 
-We've employed a variety of regressive surrogate machine learning models including Artificial Neural Networks (ANN), Support Vector Regressors (SVR), Gradient Boosting (XGB, LGBM), CatBoost, and Bagging techniques. The models are trained on a rich dataset generated through finite element analysis, incorporating variables such as wind speed, solar irradiance, and ambient temperature. The Jupyter Notebook used for the ML modelling is provided ![here] (Global_PV_TE_ML_Models.ipynb).
+We've employed a variety of regressive surrogate machine learning models including Artificial Neural Networks (ANN), Support Vector Regressors (SVR), Gradient Boosting (XGB, LGBM), CatBoost, and Bagging techniques. The models are trained on a rich dataset generated through finite element analysis, incorporating variables such as wind speed, solar irradiance, and ambient temperature. The Jupyter Notebook used for the ML modelling is provided ![here](Global_PV_TE_ML_Models.ipynb).
 
 
 ## Results
