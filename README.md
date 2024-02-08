@@ -6,7 +6,7 @@ Our models have been thoroughly evaluated, and the results highlight their abili
 
 ![Model Performance Summary](resized_Best_Models_All.png)
 
-*Figure: Comparative analysis of machine learning models in predicting solar PV-TE module performance across multiple countries.*
+*Figure 1: Comparative analysis of machine learning models in predicting solar PV-TE module performance across multiple countries.*
 
 ### Model Forecasting Phase
 
@@ -17,25 +17,25 @@ The forecasting phase of our project involved using the optimally trained models
 The forecasts display the expected power and efficiency trajectories over time, reflecting the impact of seasonal variations and other factors on the performance of the solar PV-TE systems.
 
 ![Forecasting in Antarctica](Antarctica.jpg)
-*Figure 16: Forecasted power and efficiencies in Antarctica.*
+*Figure 2: Forecasted power and efficiencies in Antarctica.*
 
 ![Forecasting in Australia](Australia.jpg)
-*Figure 17: Forecasted power and efficiencies in Australia.*
+*Figure 3: Forecasted power and efficiencies in Australia.*
 
 ![Forecasting in Beijing](Beijing.jpg)
-*Figure 18: Forecasted power and efficiencies in Beijing.*
+*Figure 4: Forecasted power and efficiencies in Beijing.*
 
 ![Forecasting in Berlin](Berlin.jpg)
-*Figure 19: Forecasted power and efficiencies in Berlin.*
+*Figure 5: Forecasted power and efficiencies in Berlin.*
 
 ![Forecasting in Brasilia](Brasilia.jpg)
-*Figure 20: Forecasted power and efficiencies in Brasilia.*
+*Figure 6: Forecasted power and efficiencies in Brasilia.*
 
 ![Forecasting in Pretoria](Pretoria.jpg)
-*Figure 21: Forecasted power and efficiencies in Pretoria.*
+*Figure 7: Forecasted power and efficiencies in Pretoria.*
 
 ![Forecasting in Washington](Washington.jpg)
-*Figure 22: Forecasted power and efficiencies in Washington.*
+*Figure 8: Forecasted power and efficiencies in Washington.*
 
 These figures represent the predictive capabilities of our machine learning models over various locations, indicating robustness and reliability in diverse environmental conditions.
 
