@@ -1,4 +1,4 @@
-# Solar Photovoltaic-Thermoelectric (PV-TE) Performance Prediction
+# Solar Power Forecating Across the Continents using ML
 
 ## Overview
 
