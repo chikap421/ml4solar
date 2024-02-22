@@ -27,9 +27,15 @@ for index, row in df.iterrows():
 plt.figure(figsize=(10, 8))
 sns.set(style="white", font_scale=1.2)  # Setting the style and context for academic look
 
-# Drawing the heatmap
+# Drawing the heatmap with gridlines and a solid thick box
 ax = sns.heatmap(encoded_data, cmap="coolwarm", annot=True, center=0, fmt="d",
-                 cbar_kws={'label': 'Model Preference\n(1 for Power, -1 for Efficiency)'})
+                 cbar_kws={'label': 'Model Preference\n(1 for Power, -1 for Efficiency)'},
+                 linewidths=.5, linecolor='black')  # This adds gridlines
+
+# Adding a solid thick box around the plot
+for _, spine in ax.spines.items():
+    spine.set_visible(True)
+    spine.set_linewidth(2)
 
 # Adding informative title
 plt.title('Country Preferences for Models', pad=20)
@@ -38,15 +44,8 @@ plt.title('Country Preferences for Models', pad=20)
 plt.xlabel('Model', labelpad=10)
 plt.ylabel('Country', labelpad=10)
 
-# Removing the axis lines for a cleaner look
-sns.despine()
-
 # Adjusting the layout to ensure everything fits without overlap
 plt.tight_layout()
-
-# # Saving the plot with a higher resolution suitable for academic papers
-# file_path = '/academic_heatmap_with_colorbar_and_howto.png'
-# plt.savefig(file_path, dpi=300)
 
 # Displaying the plot
 plt.show()
