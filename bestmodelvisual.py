@@ -48,4 +48,8 @@ plt.ylabel('Country', labelpad=10)
 plt.tight_layout()
 
 # Displaying the plot
-plt.show()
+# plt.show()
+
+# Save the plot
+plt.savefig("heatmap.tiff", dpi=300, format='tiff')
+
