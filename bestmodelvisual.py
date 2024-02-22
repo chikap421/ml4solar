@@ -51,5 +51,5 @@ plt.tight_layout()
 # plt.show()
 
 # Save the plot
-plt.savefig("heatmap.tiff", dpi=300, format='tiff')
+plt.savefig("heatmap.jpg", dpi=300, format='jpg')
 
